@@ -1,0 +1,46 @@
+#welcome-section {
+    height: 75vh;
+}
+
+#portrait-container {
+    display: flex;
+    justify-content: center;
+}
+  
+#welcome-section h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+}
+  
+body {
+    background-color: beige;
+}
+  
+#navbar {
+    position: fixed;
+    top: 0px;
+    font-size: 1.5rem;
+}
+
+.navbar-item {
+    margin-right: 0.5rem;
+}
+
+#selfPortrait {
+    height: 250px;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#projects a {
+    display: block;
+}
