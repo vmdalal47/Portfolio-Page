@@ -50,3 +50,12 @@ a:visited {
 #projects a {
     display: block;
 }
+
+#external-links {
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    margin: 0.2rem;
+}
