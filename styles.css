@@ -1,3 +1,7 @@
+html {
+    background-color: pink;
+}
+
 #welcome-section {
     height: 75vh;
 }
@@ -15,6 +19,8 @@
   
 body {
     background-color: beige;
+    width: 50%;
+    margin: 0 auto;
 }
   
 #navbar {
