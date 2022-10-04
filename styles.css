@@ -47,6 +47,14 @@ a:visited {
     color: black;
 }
 
+#projects {
+    margin-bottom: 2rem;
+}
+
+h2, .project-tile {
+    text-align: center;
+}
+
 #projects a {
     display: block;
 }
