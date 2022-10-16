@@ -1,20 +1,26 @@
 html {
-    background-color: pink;
-}
-
-#welcome-section {
-    height: 75vh;
-}
-
-#portrait-container {
-    display: flex;
-    justify-content: center;
+    /* background-color: pink; */
+    /* background: rgb(68,60,201); */
+    background: linear-gradient(90deg, rgba(68,60,201,1) 0%, rgba(16,219,121,1) 50%, rgba(0,212,255,1) 100%);
 }
   
+h1 {
+    background-color: beige;
+}
+
 #welcome-section h1 {
     text-align: center;
     margin-top: 60px;
     font-size: 2rem;
+}
+
+#welcome-section {
+    background-image: url(images/selfPortrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 75vh;
 }
   
 body {
@@ -27,10 +33,12 @@ body {
     position: fixed;
     top: 0px;
     font-size: 1.5rem;
+    background-color: maroon;
 }
 
 .navbar-item {
     margin-right: 0.5rem;
+    color: white;
 }
 
 #selfPortrait {
@@ -40,10 +48,6 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-a:visited {
     color: black;
 }
 
