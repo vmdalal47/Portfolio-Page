@@ -63,6 +63,10 @@ h2, .project-tile {
     display: block;
 }
 
+.project-image {
+    width: 25%;
+}
+
 #external-links {
     display: flex;
     justify-content: center;
