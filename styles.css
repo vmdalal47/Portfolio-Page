@@ -57,10 +57,13 @@ a {
 
 h2, .project-tile {
     text-align: center;
+    font-size: 2rem;
 }
 
 #projects a {
     display: block;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .project-image {
